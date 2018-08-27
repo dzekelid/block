@@ -9,11 +9,71 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-nebl
 x-kinRank: "7"
 x-alexaRank: "350300"
 tags: Block
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Neblio REST API Suite - Returns information regarding a Neblio block
+  x-api-slug: insblockblockhash-get
+  description: Returns blockchain data for a given block based upon the block hash
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/insblockblockhash-get-openapi.md
+- name: Neblio REST API Suite - Returns block hash of block
+  x-api-slug: insblockindexblockindex-get
+  description: Returns the block hash of a block at a given block index
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/insblockindexblockindex-get-openapi.md
+- name: Neblio REST API Suite - Get transactions by block or address
+  x-api-slug: instxs-get
+  description: Returns all transactions by block or address
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/instxs-get-openapi.md
+- name: Neblio REST API Suite - Returns information regarding a Neblio block
+  x-api-slug: testnetinsblockblockhash-get
+  description: Returns blockchain data for a given block based upon the block hash
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/testnetinsblockblockhash-get-openapi.md
+- name: Neblio REST API Suite - Returns block hash of block
+  x-api-slug: testnetinsblockindexblockindex-get
+  description: Returns the block hash of a block at a given block index
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/testnetinsblockindexblockindex-get-openapi.md
+- name: Neblio REST API Suite - Get transactions by block or address
+  x-api-slug: testnetinstxs-get
+  description: Returns all transactions by block or address
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/block/master/_listings/neblio/testnetinstxs-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://nebl.io/feed/
